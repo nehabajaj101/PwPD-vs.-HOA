@@ -1,0 +1,481 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>icatb_mancovan_results_summary</title><meta name="generator" content="MATLAB 9.9"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2025-08-26"><meta name="DC.source" content="icatb_mancovan_results_summary.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#3">Features display (Spatial maps, Timecourses spectra, FNC correlations)</a></li><li><a href="#4">Multivariate results</a></li><li><a href="#5">Univariate results</a></li></ul></div><h2 id="3">Features display (Spatial maps, Timecourses spectra, FNC correlations)</h2><div><ul><li><b>a) Spatial maps and spectra</b> - Orthogonal slices of T-maps for each component and timecourses spectra is shown.</li><li><b>b) FNC correlations</b> -  FNC correlations are averaged across subjects.</li></ul></div><img vspace="5" hspace="5" src="icatb_mancovan_results_summary_01.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_02.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_03.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_04.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_05.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_06.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_07.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_08.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_09.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_10.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_11.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_12.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_13.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_14.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_15.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_16.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_17.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_18.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_19.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_20.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_21.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_22.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_23.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_24.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_25.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_26.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_27.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_28.png" alt=""> <h2 id="4">Multivariate results</h2><pre>Multivariate tests are done on the features to determine the significant covariates which are later used in the univariate tests on each feature.</pre><h2 id="5">Univariate results</h2><div><ul><li><b>a) Spatial maps</b> - T-maps of the significant covariate are shown as composite t-maps. Beta-values are averaged over significant clusters.</li><li><b>b) Spectra</b> - Univariate t-tests are done using the significant covariates on the spectra. Beta-values ate averaged over frequency bands.</li><li><b>c) FNC</b> - Univariate t-tests are done using the significant covariates on the FNC correlations. Connectogram of FNC correlations is also shown. Thumbnails of mean component maps are also plotted.</li></ul></div><pre class="codeoutput">Displaying connectogram ...
+Done
+
+Writing out composite images of covariates of interest ...
+Displaying connectogram ...
+Done
+
+</pre><img vspace="5" hspace="5" src="icatb_mancovan_results_summary_29.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_30.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_31.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_32.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_33.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_34.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_35.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_36.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_37.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_38.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_39.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_40.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_41.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_42.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_43.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_44.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_45.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_46.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_47.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_48.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_49.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_50.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_51.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_52.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_53.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_54.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_55.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_56.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_57.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_58.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_59.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_60.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_61.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_62.png" alt=""> <img vspace="5" hspace="5" src="icatb_mancovan_results_summary_63.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2020b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+function icatb_mancovan_results_summary(mancovanInfo)
+
+try
+    resultsDir = mancovanInfo.display.dirName;
+catch
+    resultsDir = [mancovanInfo.prefix, '_results_summary'];
+end
+
+
+try
+    mancovanInfo.userInput.compFiles = mancovanInfo.display.compFiles;
+catch
+end
+
+display_steps = {'features', 'mult', 'uni'};
+
+try
+    display_steps = mancovanInfo.display.steps;
+catch
+end
+
+t_threshold = 1.5;
+try
+    t_threshold = mancovanInfo.display.t_threshold;
+catch
+end
+
+mancovanInfo.display.t_threshold = t_threshold;
+
+resultsDir = fullfile(mancovanInfo.outputDir, resultsDir);
+
+%resultsDir = fullfile(mancovanInfo.outputDir, [mancovanInfo.prefix, '_results_summary']);
+htmlFile = fullfile(resultsDir, 'icatb_mancovan_results_summary.html');
+
+if (exist(resultsDir, 'dir') ~= 7)
+    mkdir (resultsDir);
+end
+
+saveFigInfo = 0;
+try
+    saveFigInfo = mancovanInfo.display.save_output;
+catch
+end
+
+if (isdeployed)
+    saveFigInfo = 1;
+end
+
+if (saveFigInfo)
+    disp('Generating reults summary. Please wait ....');
+end
+
+try
+    structFile = mancovanInfo.display.structFile;
+catch
+    structFile = fullfile(fileparts(which('gift.m')), 'icatb_templates', 'ch2bet.nii');
+end
+
+try
+    imStr = mancovanInfo.display.image_values;
+catch
+    imStr = 'Positive';
+end
+
+try
+    threshdesc = mancovanInfo.display.threshdesc;
+catch
+    threshdesc = 'bhfdr';
+end
+
+mancovanInfo.display.threshdesc = threshdesc;
+
+mancovanInfo.display.image_values = imStr;
+mancovanInfo.display.structFile = structFile;
+htmlSummaryStr = [];
+resultsInfo = [];
+
+%% Features display (Spatial maps, Timecourses spectra, FNC correlations)
+% * *a) Spatial maps and spectra* - Orthogonal slices of T-maps for each component and timecourses spectra is shown.
+% * *b) FNC correlations* -  FNC correlations are averaged across subjects.
+%
+if (~isempty(strmatch(lower('features'), lower(display_steps), 'exact')))
+    gH = icatb_plot_mancova_features(mancovanInfo);
+    
+    
+    if (saveFigInfo)
+        
+        resultsInfo(end + 1).title = 'Features';
+        resultsInfo(end).text = ['<ul> <li> <b> a) Spatial maps and spectra </b> - Orthogonal slices of T-maps for each component and timecourses spectra is shown. </li>', ...
+            '<li> <b> b) FNC correlations </b> - FNC correlations are averaged across subjects. </li> ', ...
+            ' </li> </ul>'];
+        
+        resultsInfo(end).files = printFigs([gH.H], resultsDir, 'features_comp');
+        htmlSummaryStr(end + 1). title = 'Features';
+        htmlSummaryStr(end).tag = 'features_comp';
+        htmlSummaryStr(end).str = get_result_strings(resultsDir, resultsInfo(end), htmlSummaryStr(end).tag);
+    end
+end
+
+drawnow;
+
+%% Multivariate results
+%  Multivariate tests are done on the features to determine the significant covariates which are later used in the univariate tests on each feature.
+designCriteria = 'mancova';
+try
+    designCriteria = mancovanInfo.designCriteria;
+catch
+end
+
+if (isfield(mancovanInfo, 'univInfo') && ~isempty(mancovanInfo.univInfo))
+    designCriteria = 'none';
+end
+
+clear gH;
+
+if (~isempty(strmatch(lower('mult'), lower(display_steps), 'exact')))
+    if (strcmpi(designCriteria, 'mancova'))
+        gH(1).H = icatb_plot_mult_mancovan(mancovanInfo);
+        if (isfield(mancovanInfo, 'time'))
+            % Time 1
+            gH(end + 1).H = icatb_plot_mult_mancovan(mancovanInfo, 1);
+            % Time 2
+            gH(end + 1).H  = icatb_plot_mult_mancovan(mancovanInfo, 2);
+        end
+        
+        if (saveFigInfo)
+            resultsInfo(end + 1).title = 'Multivariate results';
+            resultsInfo(end).text = ['<ul> <li>', ...
+                'Multivariate tests are done on the features to determine the significant covariates which are later used in the univariate tests on each feature.</li> </ul>'];
+            
+            resultsInfo(end).files = printFigs([gH.H], resultsDir, 'multivariate_results');
+            htmlSummaryStr(end + 1). title = 'Multivariate results';
+            htmlSummaryStr(end).tag = 'multivariate';
+            htmlSummaryStr(end).str = get_result_strings(resultsDir, resultsInfo(end), htmlSummaryStr(end).tag);
+        end
+        
+    end
+end
+
+clear gH;
+drawnow;
+
+%% Univariate results
+%
+% * *a) Spatial maps* - T-maps of the significant covariate are shown as composite t-maps. Beta-values are averaged over significant clusters.
+% * *b) Spectra* - Univariate t-tests are done using the significant covariates on the spectra. Beta-values ate averaged over frequency bands.
+% * *c) FNC* - Univariate t-tests are done using the significant covariates on the FNC correlations.
+% Connectogram of FNC correlations is also shown. Thumbnails of mean component maps are also plotted.
+outDir = mancovanInfo.outputDir;
+outputFiles = mancovanInfo.outputFiles;
+
+
+figH = icatb_plot_fstat_mancovan(mancovanInfo);
+if( ~isempty(figH))
+    gH = [figH.H];
+    if (saveFigInfo)
+        resultsInfo(end + 1).title = 'Univariate results (F-Stat)';
+        resultsInfo(end).text = ['<ul> <li> <b> a) Spatial Maps </b>  - T-maps of the significant covariate are shown as composite t-maps. </li>', ...
+            '<li> <b> b) FNC Spectra </b> - Univariate F-tests are done using the significant covariates on the spectra. </li> ', ...
+            '<li> <b> c) FNC </b> - Univariate F-tests are done using the significant covariates on the FNC correlations. Connectogram of FNC correlations is also shown. Thumbnails of mean component maps are also plotted.</li></ul>'];
+        resultsInfo(end).files = printFigs(gH, resultsDir, 'univariate_results_fstat');
+        htmlSummaryStr(end + 1). title = 'Univariate results (F-Stat)';
+        htmlSummaryStr(end).tag = 'univariate_fstat';
+        htmlSummaryStr(end).str = get_result_strings(resultsDir, resultsInfo(end), htmlSummaryStr(end).tag);
+    end
+end
+
+if (~isempty(strmatch(lower('uni'), lower(display_steps), 'exact')))
+    
+    start_terms = {};
+    for nO = 1:length(outputFiles)
+        for nR = 1:length(outputFiles(nO).filesInfo.result_files)
+            load(fullfile(outDir, outputFiles(nO).filesInfo.result_files{nR}), 'UNI');
+            for nT = 1:length(UNI.tests)
+                for nC = 1:length(UNI.stats{nT}.Contrast)
+                    if (~isempty(UNI.stats{nT}.Contrast{nC}))
+                        start_terms{end + 1} = UNI.stats{nT}.Contrast{nC};
+                    else
+                        start_terms{end + 1} = UNI.tests{nT};
+                    end
+                end
+            end
+        end
+    end
+    
+    if (~isempty(start_terms))
+        [ddd, indbb] = unique(start_terms);
+        start_terms = start_terms(sort(indbb));
+    end
+    
+    load(fullfile(mancovanInfo.outputDir, mancovanInfo.outputFiles(1).filesInfo.result_files{1}), 'UNI');
+    if (~exist('UNI', 'var') || isempty(UNI))
+        error('Please run mancova in order to view results');
+    end
+    
+    gH = [];
+    for nF = 1:length(start_terms)
+        
+        mancovanInfo.covariatesToPlot = start_terms(nF);
+        figs  = icatb_plot_univariate_results(mancovanInfo);
+        if (~isempty(figs))
+            gH = [gH, [figs.H]];
+        end
+        drawnow;
+        
+        if (isfield(mancovanInfo, 'time'))
+            % Time 1
+            figs = icatb_plot_univariate_results(mancovanInfo, 1);
+            if (~isempty(figs))
+                gH = [gH, [figs.H]];
+            end
+            drawnow;
+            % Time 2
+            figs  =  icatb_plot_univariate_results(mancovanInfo, 2);
+            if (~isempty(figs))
+                gH = [gH, [figs.H]];
+            end
+            drawnow;
+        end
+    end
+    
+    if( ~isempty(gH))
+        if (saveFigInfo)
+            resultsInfo(end + 1).title = 'Univariate results';
+            resultsInfo(end).text = ['<ul> <li> <b> a) Spatial Maps </b>  - T-maps of the significant covariate are shown as composite t-maps. Beta-values are averaged over significant clusters. </li>', ...
+                '<li> <b> b) FNC Spectra </b> - Univariate t-tests are done using the significant covariates on the spectra. Beta-values ate averaged over frequency bands. </li> ', ...
+                '<li> <b> c) FNC </b> - Univariate t-tests are done using the significant covariates on the FNC correlations. Connectogram of FNC correlations is also shown. Thumbnails of mean component maps are also plotted.</li></ul>'];
+            resultsInfo(end).files = printFigs(gH, resultsDir, 'univariate_results');
+            htmlSummaryStr(end + 1). title = 'Univariate results';
+            htmlSummaryStr(end).tag = 'univariate';
+            htmlSummaryStr(end).str = get_result_strings(resultsDir, resultsInfo(end), htmlSummaryStr(end).tag);
+        end
+    end
+    
+end
+
+if (saveFigInfo)
+    writeHTML2(htmlFile, htmlSummaryStr);
+    disp('Done');
+    close all;
+end
+
+
+function applyDefs(figH)
+
+for nH = 1:length(figH)
+    
+    H = figH(nH).H;
+    
+    pos = get(0, 'defaultFigurePosition');
+    set(H, 'color', 'w');
+    %set(H, 'position', pos);
+    set(H, 'resize', 'on');
+    set(H, 'visible', 'on');
+    titleH = get(findobj(H, 'type', 'axes'), 'title');
+    if (iscell(titleH))
+        % titleH = cell2mat(titleH);
+        for nT = 1:length(titleH)
+            set(titleH{nT}, 'color', 'k');
+        end
+    else
+        set(titleH, 'color', 'k');
+    end
+    axesH = findobj(H, 'type', 'axes');
+    set(axesH, 'YColor', 'k', 'XColor', 'k');
+    set(axesH, 'fontname', 'times');
+    set(axesH, 'fontsize', 12);
+    textH = findobj(H, 'type', 'text');
+    set(textH, 'color', 'k');
+    set(textH, 'fontname', 'times');
+    set(textH, 'fontsize', 12);
+    try
+        C = findobj(H, 'type', 'colorbar');
+        set(C, 'color', 'k');
+        set(get(C, 'label'), 'color', 'k');
+    catch
+    end
+    
+end
+
+
+function writeHTML2(fileName, resultsStr)
+
+
+start_string = '<html><head><title> Group ICA Results </title></head>';
+start_string = [start_string, '<p> </p><h2> Contents </h2><p><ul>'];
+
+
+titles = cellstr(char(resultsStr.title));
+
+for nR = 1:length(titles)
+    start_string = [start_string, '<li><h3><a href="#', resultsStr(nR).tag, '">', titles{nR}, '</a></h3></li>'];
+end
+
+start_string = [start_string, '</ul></p><p> </p>'];
+end_string =  '</html>';
+results{1} = start_string;
+results{2} = char(resultsStr.str);
+results{3} = end_string;
+
+
+dlmwrite(fileName, char(results), '');
+
+
+function imNames = printFigs(Figs, outdir, filename)
+
+icatb_defaults;
+global GICA_RESULTS_SUMMARY;
+
+PRINT_RESOLUTION = '';
+try
+    PRINT_RESOLUTION = GICA_RESULTS_SUMMARY.print_resolution;
+catch
+end
+
+if (isempty(PRINT_RESOLUTION))
+    PRINT_RESOLUTION = '-r72';
+end
+
+imNames = cell(1, length(Figs));
+for nF = 1:length(Figs)
+    imNames{nF} = [filename, '_', icatb_returnFileIndex(nF), '.png'];
+    print(Figs(nF), '-dpng', PRINT_RESOLUTION, '-noui', fullfile(outdir, imNames{nF}));
+end
+
+function results_string = get_result_strings(htmlDir, sdFNCResults, tagStr)
+
+%html_file = fullfile(htmlDir, outFile);
+% start_string = ['<html><head><title>', titleStr, '</title>', ...
+%     '<meta http-equiv="Content-Type" content="HTML, DHTML, CSS, XML, XHTML, JavaScript, VBScript; charset=iso-8859-1">', ...
+%     '<link rel="stylesheet" type="text/css" href="./style.css"></head>'];
+
+results_string1 = [];
+for nR = 1:length(sdFNCResults)
+    results_string1 = [results_string1, '<h2 align = "center"><a name = "', tagStr, '">', sdFNCResults(nR).title, '</a></h2>'];
+    %results_string1 = [results_string1, '<hr>'];
+    results_string1 = [results_string1, '<p align = "center">', sdFNCResults(nR).text, '</p>'];
+    files =  sdFNCResults(nR).files;
+    
+    [pp,ff,extn]= fileparts(files{1});
+    
+    if (~strcmpi(extn, '.txt'))
+        
+        num_cols = 1;
+        num_rows = ceil(length(files)/num_cols);
+        countF = 0;
+        results_string1 = [results_string1, '<table>'];
+        for nrows = 1:num_rows
+            results_string1 = [results_string1, '</tr>'];
+            for ncols = 1:num_cols
+                countF = countF + 1;
+                if (countF <= length(files))
+                    results_string1 = [results_string1,  '<td align="center"><img align="center" src = "', files{countF}, '" > </img></td>'];
+                end
+            end
+            results_string1 = [results_string1, '</tr>'];
+        end
+        results_string1 = [results_string1, '</table>'];
+        
+    else
+        
+        for nrows = 1:length(files)
+            allLines = icatb_textscan(fullfile(htmlDir, files{nrows}));
+            allLines = allLines(icatb_good_cells(allLines));
+            for nLine = 1:length(allLines)
+                
+                allCols = textscan(allLines{nLine}, '%s', 'whitespace', '\t');
+                allCols = allCols{1};
+                
+                if (nLine == 1)
+                    tableStr = '<table align = "center" border = "1" width = "35%">';
+                    tDStart = '<th align = "center">';
+                    tDEnd = '</th>';
+                else
+                    tDStart = '<td align = "center">';
+                    tDEnd = '</td>';
+                end
+                
+                tableStr = [tableStr, '<tr>'];
+                
+                for nCols = 1:length(allCols)
+                    tableStr = [tableStr, tDStart, allCols{nCols}, tDEnd];
+                end
+                
+                tableStr = [tableStr, '</tr>'];
+                
+            end
+            results_string1 = [results_string1, tableStr, '</table>'];
+        end
+    end
+    
+    results_string1 = [results_string1, '<p>&nbsp;&nbsp;</p>'];
+end
+
+end_string =  '</html>';
+
+
+results_string = ['<p> </p> <hr>', results_string1, ' <p> </p>'];
+
+%dlmwrite(html_file, results_string, '');
+
+##### SOURCE END #####
+--></body></html>
